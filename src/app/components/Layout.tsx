@@ -29,12 +29,10 @@ export function Layout() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2 min-w-0">
-              <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">SA</span>
-              </div>
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Shreesha Agro Enterprises" className="w-12 h-12 object-contain" />
               <div>
                 <h1 className="font-bold text-xl text-gray-900">Shreesha Agro Enterprises</h1>
-                <p className="text-xs text-gray-600">Reliable Farming Solutions</p>
+                <p className="text-xs text-gray-600">Empowering Farms, Enriching Futures</p>
               </div>
             </Link>
 
@@ -141,9 +139,12 @@ export function Layout() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
-              <h3 className="font-bold text-lg mb-4">Shreesha Agro Enterprises</h3>
+              <div className="flex items-center space-x-3 mb-4">
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Shreesha Agro Enterprises" className="w-10 h-10 object-contain" />
+                <h3 className="font-bold text-lg">Shreesha Agro Enterprises</h3>
+              </div>
               <p className="text-gray-400 text-sm">
-                Your trusted partner for reliable farming machines and agricultural solutions.
+                Empowering Farms, Enriching Futures. Your trusted partner for reliable farming machines and agricultural solutions.
               </p>
             </div>
 
