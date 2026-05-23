@@ -54,8 +54,7 @@ export function Products() {
       id: 4,
       name: "Sprayer",
       category: "implements",
-      image:
-        "https://www.vsttractors.com/wp-content/uploads/2024/09/Jeetec.png",
+      image: `${import.meta.env.BASE_URL}sprayer.png`,
       description:
         "Sprayers with high performance, productivity, and persistence. Made for India with global technology and design. Value-for-money products available in Economy, Regular, and Premium series to cater to customers of all classes.",
       features: [
