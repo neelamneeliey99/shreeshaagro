@@ -52,7 +52,7 @@ export function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="max-w-3xl">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-6 whitespace-nowrap">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Reliable Farming Machines for Modern Agriculture
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-100">
