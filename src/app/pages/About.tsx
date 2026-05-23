@@ -38,9 +38,9 @@ export function About() {
   ];
 
   const stats = [
-    { number: "15+", label: "Years Experience" },
+    { number: "5+", label: "Years Experience" },
     { number: "500+", label: "Happy Farmers" },
-    { number: "50+", label: "Product Range" },
+    { number: "5+", label: "Product Range" },
     { number: "24/7", label: "Support Available" },
   ];
 
