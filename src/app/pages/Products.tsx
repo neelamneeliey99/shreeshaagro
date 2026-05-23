@@ -78,62 +78,6 @@ export function Products() {
         "Efficient water transfer and irrigation",
       ],
     },
-    {
-      id: 6,
-      name: "testRotavator",
-      category: "estimplements",
-      image:
-        "https://images.unsplash.com/photo-1563201515-adbe35c669c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw3fHxmYXJtaW5nJTIwdHJhY3RvciUyMGFncmljdWx0dXJhbCUyMG1hY2hpbmVyeXxlbnwxfHx8fDE3Nzk1MzgzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      description:
-        "testPrecision seeder that ensures uniform seed placement and optimal spacing.",
-      features: [
-        "Multi-crop Capability",
-        "Uniform Distribution",
-        "High Efficiency",
-      ],
-    },
-    {
-      id: 7,
-      name: "Combine Harvester",
-      category: "testimplements",
-      image:
-        "https://images.unsplash.com/photo-1632723893457-47e3abc47526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBhZ3JpY3VsdHVyZSUyMGVxdWlwbWVudCUyMGZpZWxkfGVufDF8fHx8MTc3OTUzODM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      description:
-        "TESTAdvanced harvesting machine for efficient grain collection and processing.",
-      features: [
-        "High Capacity",
-        "Auto Controls",
-        "Minimal Grain Loss",
-      ],
-    },
-    {
-      id: 8,
-      name: "testSprayer System",
-      category: "test implements",
-      image:
-        "https://images.unsplash.com/photo-1600747476236-76579658b1b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBhZ3JpY3VsdHVyZSUyMGVxdWlwbWVudCUyMGZpZWxkfGVufDF8fHx8MTc3OTUzODM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      description:
-        "testProfessional crop sprayer for pesticide and fertilizer application.",
-      features: [
-        "Large Tank Capacity",
-        "Even Coverage",
-        "Adjustable Nozzles",
-      ],
-    },
-    {
-      id: 9,
-      name: "testPlough Equipment",
-      category: "test implements",
-      image:
-        "https://images.unsplash.com/photo-1571509107684-7e3034a90012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw4fHxmYXJtaW5nJTIwdHJhY3RvciUyMGFncmljdWx0dXJhbCUyMG1hY2hpbmVyeXxlbnwxfHx8fDE3Nzk1MzgzODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      description:
-        "testRobust plough for deep tillage and soil turning in all field conditions.",
-      features: [
-        "Hardened Steel",
-        "Multiple Furrows",
-        "Long Lasting",
-      ],
-    },
   ];
 
   const categories = [
