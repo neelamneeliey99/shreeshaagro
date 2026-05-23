@@ -290,14 +290,14 @@ export function Contact() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+91"
+                href="tel:+919348104343"
                 className="px-8 py-4 bg-white text-green-700 rounded-lg font-semibold hover:bg-green-50 transition-colors inline-flex items-center justify-center space-x-2"
               >
                 <Phone size={20} />
                 <span>Call Now</span>
               </a>
               <a
-                href="https://wa.me/"
+                href="https://wa.me/919348104343?text=Hi%2C%20I%20am%20interested%20in%20your%20farming%20machines.%20Please%20share%20more%20details."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-400 transition-colors inline-flex items-center justify-center space-x-2"
