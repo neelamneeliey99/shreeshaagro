@@ -40,7 +40,6 @@ export function About() {
   const stats = [
     { number: "5+", label: "Years Experience" },
     { number: "500+", label: "Happy Farmers" },
-    { number: "5+", label: "Product Range" },
     { number: "24/7", label: "Support Available" },
   ];
 
