@@ -1,0 +1,41 @@
+/* iOS safe area support (notch, home indicator) */
+html {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* Prevent iOS text size inflation */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix iOS tap highlight */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Fix iOS input zoom (prevents zoom on focus for inputs < 16px) */
+input, select, textarea {
+  font-size: 16px;
+}
+
+/* Fix iOS momentum scrolling */
+.overflow-auto, .overflow-y-auto, .overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure images don't overflow on mobile */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix for 100vh on mobile browsers (address bar) */
+body {
+  min-height: 100dvh;
+}
