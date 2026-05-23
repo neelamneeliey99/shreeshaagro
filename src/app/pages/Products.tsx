@@ -136,7 +136,7 @@ export function Products() {
                 key={product.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
               >
-                <div className="relative h-64 overflow-hidden bg-gray-100">
+                <div className="relative h-80 overflow-hidden bg-gray-100 p-4">
                   <ImageWithFallback
                     src={product.image}
                     alt={product.name}
