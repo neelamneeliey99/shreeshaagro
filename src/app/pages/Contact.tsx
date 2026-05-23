@@ -21,16 +21,14 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        message: "",
-      });
-    }, 3000);
+    const text = [
+      `Name: ${formData.name}`,
+      `Phone: ${formData.phone}`,
+      formData.email ? `Email: ${formData.email}` : '',
+      `Message: ${formData.message}`,
+    ].filter(Boolean).join('\n');
+    const whatsappUrl = `https://wa.me/919348104343?text=${encodeURIComponent(text)}`;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
   const handleChange = (
