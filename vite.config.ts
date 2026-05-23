@@ -17,8 +17,8 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  // Use '/' for custom domain. Change to '/Sreesha/' only if using <username>.github.io/Sreesha/
-  base: '/',
+  // Auto-set base path: '/Sreesha/' on GitHub Pages, '/' locally/Hostinger
+  base: process.env.GITHUB_PAGES ? '/Sreesha/' : '/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
