@@ -196,6 +196,14 @@ export function Layout() {
                     shubhasisnayak179@gmail.com
                   </a>
                 </li>
+                <li className="flex items-center space-x-2">
+                  <Phone size={18} className="text-green-500 flex-shrink-0" />
+                  <div className="text-gray-400">
+                    <a href="tel:+919348104343" className="hover:text-white transition-colors">9348104343</a>
+                    {" / "}
+                    <a href="tel:+919938028413" className="hover:text-white transition-colors">9938028413</a>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
