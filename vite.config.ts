@@ -17,8 +17,8 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  // Auto-set base path: '/Sreesha/' on GitHub Pages, '/' locally/Hostinger
-  base: process.env.GITHUB_PAGES ? '/Sreesha/' : '/',
+  // Auto-set base path: '/shreeshaagro/' on GitHub Pages, '/' locally/Hostinger
+  base: process.env.GITHUB_PAGES ? '/shreeshaagro/' : '/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
